@@ -1,5 +1,6 @@
-str1 = "programming"
-str2 = "prototyping"
+# Taking two strings of same length as input
+str1 = input("Enter a string: ")
+str2 = input("Enter another string of same length: ")
 
 AnsStr=""
 for i in range (0,len(str1),2):
